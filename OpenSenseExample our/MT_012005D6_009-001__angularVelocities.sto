@@ -1,0 +1,6 @@
+DataRate=100.000000
+DataType=Vec3
+version=3
+OpenSimVersion=4.5
+endheader
+time	cerv7_imu	skull_imu
