@@ -1,0 +1,8 @@
+[2026-02-07 11:40:35.666] [info] Updating Model file from 30000 to latest format...
+[2026-02-07 11:40:35.789] [warning] Model name 'Head Neck Skeleton' contains whitespace.
+[2026-02-07 11:40:35.789] [warning] It was renamed to 'HeadNeckSkeleton'.
+[2026-02-07 11:40:35.803] [error] Object::newInstanceOfType(): object type 'DynamicLigamentForce' is not a registered Object! It will be ignored.
+[2026-02-07 11:42:56.606] [info] Updating Model file from 30000 to latest format...
+[2026-02-07 11:42:56.607] [warning] Model name 'Head Neck Skeleton' contains whitespace.
+[2026-02-07 11:42:56.607] [warning] It was renamed to 'HeadNeckSkeleton'.
+[2026-02-07 11:42:56.614] [error] Object::newInstanceOfType(): object type 'DynamicLigamentForce' is not a registered Object! It will be ignored.

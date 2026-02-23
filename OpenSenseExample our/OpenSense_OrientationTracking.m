@@ -32,8 +32,8 @@ modelFileName = 'HYOID_1.2_ScaledStrenght_UpdatedInertia_calibrated.osim';      
 orientationsFileName = 'MT_012005D6_009-001__orientations.sto';   % The path to orientation data for calibration 
 sensor_to_opensim_rotation = Vec3(-pi/2, 0, 0); % The rotation of IMU data to the OpenSim world frame 
 visualizeTracking = true;  % Boolean to Visualize the tracking simulation
-startTime = 5;          % Start time (in seconds) of the tracking simulation. 
-endTime = 15;              % End time (in seconds) of the tracking simulation.
+startTime = 25;          % Start time (in seconds) of the tracking simulation. 
+endTime = 45;              % End time (in seconds) of the tracking simulation.
 resultsDirectory = 'IKResults';
 
 %% Instantiate an InverseKinematicsTool
