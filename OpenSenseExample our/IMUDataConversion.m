@@ -45,17 +45,18 @@ quatTable = xsens.getOrientationsTable(tables);
 % Write to file
 STOFileAdapterQuaternion.write(quatTable,  [trial '_orientations.sto']);
 
-%% Get Acceleration Data
-accelTable = xsens.getLinearAccelerationsTable(tables);
-% Write to file
-STOFileAdapterVec3.write(accelTable, [trial '_linearAccelerations.sto']);
 
-%% Get Magnetic (North) Heading Data
-magTable = xsens.getMagneticHeadingTable(tables);
-% Write to file
-STOFileAdapterVec3.write(magTable, [trial '_magneticNorthHeadings.sto']);
-
-%% Get Angular Velocity Data
-angVelTable = xsens.getAngularVelocityTable(tables);
-% Write to file
-STOFileAdapterVec3.write(angVelTable, [trial '_angularVelocities.sto']);
+% % Get Acceleration Data
+% accelTable = xsens.getLinearAccelerationsTable(tables);
+% % Write to file
+% STOFileAdapterVec3.write(accelTable, [trial '_linearAccelerations.sto']);
+% 
+% % Get Magnetic (North) Heading Data
+% magTable = xsens.getMagneticHeadingTable(tables);
+% % Write to file
+% STOFileAdapterVec3.write(magTable, [trial '_magneticNorthHeadings.sto']);
+% 
+% % Get Angular Velocity Data
+% angVelTable = xsens.getAngularVelocityTable(tables);
+% % Write to file
+% STOFileAdapterVec3.write(angVelTable, [trial '_angularVelocities.sto']);
