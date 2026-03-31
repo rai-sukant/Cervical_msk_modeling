@@ -1,8 +1,8 @@
 %% Converts the IMU degree data to anybody friendly radian format
 
 % -------- USER INPUT --------
-input_csv = "E:\local_git\Cervical_ROM\neck_mtw_rai2_21-2-26\_angle.csv"; 
-output_csv = "E:\local_git\Cervical_ROM\neck_mtw_rai2_21-2-26\time_v_angle_rai2(21-2-26).csv";
+input_csv = "E:\local_git\Cervical_ROM\_subject_data_17-3-26\_angle.csv"; 
+output_csv = "E:\local_git\Cervical_ROM\_subject_data_17-3-26\Aadith_radians_angle.csv" ; 
 
 
 dt = 0.01;                             % desired time step (10 ms)
